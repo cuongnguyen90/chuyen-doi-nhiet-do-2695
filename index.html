@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+<script>
+    function Temperature(a) {
+        this.a = a;
+        this.f = a*1.8 + 32;
+        this.kenvin = a + 273.15;
+
+    }
+    function convert(c){
+        temp = new Temperature(25);
+        //temp.a = c;
+        return temp
+    }
+
+    //convert(25);
+
+    console.log(convert(25))
+
+</script>
+</body>
+</html>
